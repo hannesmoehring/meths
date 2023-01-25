@@ -1,7 +1,7 @@
 import math
 
 import networkx as nx
-import pylab
+import matplotlib.pylab as pylab
 
 gen = 11
 useGen = True
