@@ -3,9 +3,11 @@ import math
 import networkx as nx
 import matplotlib.pylab as pylab
 
-gen = 11
-useGen = True
-maxVal = 42
+gen = input("generator, if only use one gen   ")
+if input("use only one gen? y/n   " ) == "y":
+    useGen = True
+else: useGen = False
+maxVal = input("natural number: maxVal:  ")
 group = []
 
 for n in range(maxVal):
