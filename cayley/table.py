@@ -16,7 +16,7 @@ for y in group:
         else:
             dic[y][x] = (x * y) % maxVal
 
-with open("hello45.csv", "w") as file:
+with open("exampleOutPutTable.csv", "w") as file:
     w = csv.DictWriter(file, group)
     for g in group:
         w.writerow(dic[g])
